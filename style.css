@@ -1,0 +1,74 @@
+
+:root{
+    --fonte-primaria:"Dancing Script";
+    --cor-letra:hsl(29, 96%, 44%);
+    --cor-background: hsl(54, 94%, 50%);
+    --cor-caixa: hsl(44, 100%, 56%);
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-background)
+}
+.titulo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 3rem;
+}
+h1{
+    color: var(--cor-letra);
+    font-size: 4rem;
+    font-family: var(--fonte-primaria);
+}
+h2{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-caixa);
+}
+.tabela-coxinha{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.produtos{
+
+    margin-inline: 1rem;
+    background-color: var(--cor-letra);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 8.5rem;
+    height: 18.3rem; 
+}
+.produtos img{
+    width: auto;
+    height: 6rem;
+    display: flex;
+    align-items: flex-end;
+}
+.produtos p{
+    font-weight: 700;
+}
+button {
+    font-weight:400 ;
+    font-size: 1rem  ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    color: #000;
+    box-shadow: 1px 1px 2px black;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: pointer;
+    background-color: var(--cor-caixa);
+    border-radius: 0.5rem;
+    border-style: hidden;
+}
+button:hover{
+    width: 5rem;
+    height: auto;
+    background-color: var(--cor-background);
+    font-weight: 500;
+}
